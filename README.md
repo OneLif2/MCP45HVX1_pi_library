@@ -1,9 +1,9 @@
 # MCP45HVX1 Digital Potentiometer Driver for Raspberry Pi / Jetson Nano
 #MCP45HVX1 #Ditgital variable resistor #Potentiometer #Raspberry Pi #Jetson Nano
 
-##Wiring Diagram
+## Wiring Diagram
 
->+-----------------------------+---------------------------------
+> +-----------------------------+---------------------------------
 |   Raspberry Pi               |   MCP41HVX1
 | Pin | Description            | Pin | Description
 +-----+-----------------------+-----+---------------------------
