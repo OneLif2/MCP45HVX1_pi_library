@@ -3,7 +3,7 @@ import time
 
 def main():
     while(True):
-        for i in range(61, 256, 2):
+        for i in range(60, 256, 2):
             digiPot.writeWiper(i)
             print("readWiper: ", digiPot.readWiper(), "\n")
             time.sleep(0.05)  # minimum 0.05
