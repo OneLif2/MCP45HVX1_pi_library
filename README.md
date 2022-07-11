@@ -31,7 +31,7 @@
   <tr>
     <td>GPIO</td>
     <td>Any GPIO Pin or GND,<br>depends on what I2C address you want</td>
-    <td>&nbsp;&nbsp;3</td>
+    <td>3</td>
     <td>A1</td>
   </tr>
   <tr>
