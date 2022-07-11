@@ -3,10 +3,34 @@
 
 ## Wiring Diagram
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+|  Raspberry Pi  || MCP45HVX1     ||
+| :---        |    :----:   |   ---: |      ---: |
+| Header      | Title       | Here's this   |Here's this   |
+| Header      | Title       | Here's this   |Here's this   |
+| Paragraph   | Text        | And more      |And more      |
+
+|               |          Grouping             ||         Grouping 2         || Not Grouped    |
+| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
+| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
+| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
+| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |
+| ^^            |               | 1. second item |              | 1. forth item | + second point |
+| New section   |     More      |         Data   | ... - -- --- |||
+| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
+[Compicated table]
+
+
+| :                   MathJax \|\| Image                 : |||
+| :------------ | :-------- | :----------------------------- |
+| Apple         | : Apple : | Apple                          \
+| Banana        | Banana    | Banana                         \
+| Orange        | Orange    | Orange                         |
+| :     Rowspan is 4     : || :        How's it?           : |
+| ^^     A. Peach          ||    1. ![example][cell-image]   |
+| ^^     B. Orange         || ^^ 2. $I = \int \rho R^{2} dV$ |
+| ^^     C. Banana         || **It's OK!**                   |
+
+[cell-image]: https://jekyllrb.com/img/octojekyll.png "An exemplary image"
 
 
 ```
