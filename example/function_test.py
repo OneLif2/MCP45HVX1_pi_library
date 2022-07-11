@@ -3,7 +3,7 @@ import time
 
 def main():
     while(True):
-        for i in range(60, 256, 2):
+        for i in range(61, 256, 2):
             digiPot.writeWiper(i)
             print("readWiper: ", digiPot.readWiper(), "\n")
             time.sleep(0.05)  # minimum 0.05
@@ -56,10 +56,58 @@ def function_test():
     digiPot.decrementWiper(4)
     print(digiPot.readWiper())
 
+    print("writeWiper: ", end=" ")
+    digiPot.writeWiper(255)
+    print(digiPot.readWiper())
+
   # TCON ..........................#
-    print("readTCON :", digiPot.readTCON())
+    print("readTCON :", bin(digiPot.readTCON()))
+    digiPot.shutdown()
+    print("shutdown :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.startup()
+    print("startup :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.shutdown()
+    print("shutdown :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.startup()
+    print("startup :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.disconnectTerminalA()
+    print("disconnectTerminalA :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.connectTerminalA()
+    print("connectTerminalA :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.disconnectTerminalA()
+    print("disconnectTerminalA :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.connectTerminalA()
+    print("connectTerminalA :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.disconnectWiper()
+    print("disconnectWiper :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.connectWiper()
+    print("connectWiper :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.disconnectWiper()
+    print("disconnectWiper :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.connectWiper()
+    print("connectWiper :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.disconnectTerminalB()
+    print("disconnectTerminalB :", bin(digiPot.readTCON()))
+    time.sleep(2)
+    digiPot.connectTerminalB()
+    print("connectTerminalB :", bin(digiPot.readTCON()))
+    time.sleep(2)
 
 if __name__ == "__main__":
     digiPot = MCP45HVX1(0x3c)
     function_test()
+    print("RUN main function")
+    time.sleep(5)
     main()
