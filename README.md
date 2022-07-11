@@ -23,7 +23,7 @@
     <td>Power 1.8v to 5.5v<br></td>
   </tr>
   <tr>
-    <td>5</td>
+    <td>&nbsp;&nbsp;5</td>
     <td>SCL1 (I2C Bus 1)</td>
     <td>2</td>
     <td>SCL</td>
@@ -31,11 +31,11 @@
   <tr>
     <td>GPIO</td>
     <td>Any GPIO Pin or GND,<br>depends on what I2C address you want</td>
-    <td>3</td>
+    <td>&nbsp;&nbsp;3</td>
     <td>A1</td>
   </tr>
   <tr>
-    <td>3</td>
+    <td> 3</td>
     <td>SDA1 (I2C Bus 1)</td>
     <td>4</td>
     <td>SDA</td>
