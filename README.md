@@ -74,7 +74,7 @@
     <td></td>
     <td></td>
     <td>10</td>
-    <td>V-    (Connect to external power supply max 36 volts. Common ground with Raspberry Pi)</td>
+    <td>V-    (Connect to external power supply max 36 volts. <br>Common ground with Raspberry Pi)</td>
   </tr>
   <tr>
     <td></td>
