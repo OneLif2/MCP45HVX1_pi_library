@@ -1,11 +1,24 @@
 # MCP45HVX1 Digital Potentiometer Driver for Raspberry Pi / Jetson Nano
 #MCP45HVX1 #Ditgital variable resistor #Potentiometer #Raspberry Pi #Jetson Nano
 
-## Features:
+## Features Highlights:
+
 - Single-Resistor Network
 - Resistor Network Resolution
-  - 7-bit: 127 Resistors (128 Taps)
-  - 8-bit: 255 Resistors (256 Taps)
+  - 7-bit: 127 Resistors (128 Taps) - MCP45HV31 series 
+  - 8-bit: 255 Resistors (256 Taps) - MCP45HV51 series
+- RAB Resistance Options:
+
+    |RAB Value|Package Code|
+    |:---:|:---:|
+    |5k Ohm| -502|
+    |10k Ohm|-103|
+    |50k Ohm|-503|
+    |100k Ohm|-104|
+- High Terminal/Wiper Current (IW) Support:
+  - 25 mA (for 5k Ohm)
+  - 12.5 mA (for 10k Ohm)
+  - 6.5 mA (for 50k Ohm and 100k Ohm)
 - Resistor Network Terminal Disconnect Via:
   - Shutdown Pin (SHDN)
   - Terminal Control (TCON) Register
