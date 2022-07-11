@@ -2,23 +2,106 @@
 #MCP45HVX1 #Ditgital variable resistor #Potentiometer #Raspberry Pi #Jetson Nano
 
 ## Wiring Diagram
-
-| *Raspberry Pi*  || *MCP45HVX1*     ||\
-|Pin|Desceiption|Pin|Description|
-| :---        |    :----:   |   ---: |      ---: |
-| Header      | Title       | Here's this   |Here's this   |
-| Header      | Title       | Here's this   |Here's this   |
-| Paragraph   | Text        | And more      |And more      |
-
-|               |          Grouping             ||         Grouping 2         || Not Grouped    |
-| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
-| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
-| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
-| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |
-| ^^            |               | 1. second item |              | 1. forth item | + second point |
-| New section   |     More      |         Data   | ... - -- --- |||
-| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
-[Compicated table]
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Raspberry Pi</th>
+    <th colspan="2">MCP41HVX1</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Pin</td>
+    <td>Description</td>
+    <td>Pin</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>+3.3v</td>
+    <td>5v is also supported</td>
+    <td>1</td>
+    <td>Power 1.8v to 5.5v<br></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>SCL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>A1</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>4</td>
+    <td>SDA</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>5</td>
+    <td>A0</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>6</td>
+    <td>WLAT</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>7</td>
+    <td>NC</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>8</td>
+    <td>SHDN</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>9</td>
+    <td>DGND</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>10</td>
+    <td>V-    (Connect to external power supply max 36 volts. Common ground with Raspberry Pi)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>11</td>
+    <td>POB   (This is the potentiometer)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>12</td>
+    <td>POW   (This is the wiper of the potentiometer)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>13</td>
+    <td>POA   (This is the potentiometer)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>14</td>
+    <td>V+    (Connect to external power supply max 36 volts)</td>
+  </tr>
+</tbody>
+</table>
 
 
 | :                   MathJax \|\| Image                 : |||
