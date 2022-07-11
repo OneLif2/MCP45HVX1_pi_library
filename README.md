@@ -5,8 +5,8 @@
 
 - Single-Resistor Network
 - Resistor Network Resolution
-  - 7-bit: 127 Resistors (128 Taps) - MCP45HV31 series 
-  - 8-bit: 255 Resistors (256 Taps) - MCP45HV51 series
+  - 7-bit: 127 Resistors (128 Taps >> 0 - 127) - MCP45HV31 series 
+  - 8-bit: 255 Resistors (256 Taps >> 0 - 255) - MCP45HV51 series
 - R<sub>AB</sub> Resistance Options:
 
     |R<sub>AB</sub> Value|Package Code|
