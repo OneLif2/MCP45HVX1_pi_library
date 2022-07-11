@@ -7,9 +7,9 @@
 - Resistor Network Resolution
   - 7-bit: 127 Resistors (128 Taps) - MCP45HV31 series 
   - 8-bit: 255 Resistors (256 Taps) - MCP45HV51 series
-- RAB Resistance Options:
+- R<sub>AB</sub> Resistance Options:
 
-    |RAB Value|Package Code|
+    |R<sub>AB</sub> Value|Package Code|
     |:---:|:---:|
     |5k Ohm| -502|
     |10k Ohm|-103|
