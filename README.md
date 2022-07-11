@@ -3,7 +3,8 @@
 
 ## Wiring Diagram
 
-|  Raspberry Pi  || MCP45HVX1     ||
+| *Raspberry Pi*  || *MCP45HVX1*     ||\
+|Pin|Desceiption|Pin|Description|
 | :---        |    :----:   |   ---: |      ---: |
 | Header      | Title       | Here's this   |Here's this   |
 | Header      | Title       | Here's this   |Here's this   |
@@ -54,3 +55,21 @@
 |     |                        | 14  | V+    (Connect to external power supply max 36 volts)
 
 ```
+
+---
+
+<table>
+  <tr>
+    <th colspan="3">second</th>
+  </tr>
+  <tr>
+    <td rowspan="2">1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+  <td> 4</rd>
+  </tr>
+
+</table>
+
