@@ -35,7 +35,7 @@
     <td>A1</td>
   </tr>
   <tr>
-    <td> 3</td>
+    <td>&nbsp;&nbsp;3</td>
     <td>SDA1 (I2C Bus 1)</td>
     <td>4</td>
     <td>SDA</td>
