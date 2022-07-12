@@ -4,6 +4,8 @@
 ## Features Highlights:
 
 - Single-Resistor Network
+- I<sup>2</sup>C Serial Interface:
+  - 100 kHz, 400 kHz, 1.7 MHz, and 3.4 MHz support
 - Resistor Network Resolution
   - 7-bit: 127 Resistors (128 Taps >> 0 - 127) - MCP45HV31 series 
   - 8-bit: 255 Resistors (256 Taps >> 0 - 255) - MCP45HV51 series
@@ -23,6 +25,12 @@
   - Shutdown Pin (SHDN)
   - Terminal Control (TCON) Register
 - Write Latch (WLAT) Pin to Control Update of Volatile Wiper Register (such as Zero Crossing)
+
+## Hardware
+1. MCP45HVX1 Single Potentiometer - Package Types : TSSOP-14
+
+2. TSSOP14 to DIP14 Pinboard SMD to DIP Adapter (PCB Board)
+
 
 ## DEVICE SLAVE ADDRESSES
 |A1|A0|I2C Address|
