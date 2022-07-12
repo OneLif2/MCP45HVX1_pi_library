@@ -1,11 +1,24 @@
-# ******************************************************
-#  Raspberry Pi / Jetson Nano library for MCP45HVX1 digital potentiometers
-#
-#  Author: OneLife d2nnis@hotmail.com
-#
-#  Version: 1.0.0
-#  License: Apache 2.0
-# *******************************************************
+""" ******************************************************
+
+  This file is the MCP45HVX1 library.
+  Copyright (c) 2022 OneLif2. All rights reserved.
+  
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+  
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+  
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+********************************************************** """
+
 import smbus
 import time
 
@@ -125,7 +138,7 @@ class MCP45HVX1(object):
         self.write_TCON_Register()
 
     def writeTCON(self, inReg):
-        #inReg is a 8-bits data to update the TCON status, e.g.: inReg = 0b11110101 
+        #inReg is a 4-bits data to update the TCON status, e.g.: inReg = 0b0101 
         self.R0HW = inReg >> 3 & 0x1
         self.R0A = inReg >> 2 & 0x1
         self.R0B = inReg >> 1 & 0x1
