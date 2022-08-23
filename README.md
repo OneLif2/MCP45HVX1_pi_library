@@ -45,7 +45,7 @@
 <thead>
   <tr>
     <th colspan="2">Raspberry Pi / Jetson Nano</th>
-    <th colspan="2">MCP41HVX1</th>
+    <th colspan="2">MCP45HVX1</th>
   </tr>
 </thead>
 <tbody>
