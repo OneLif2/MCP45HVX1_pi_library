@@ -98,7 +98,7 @@
     <td>NC</td>
   </tr>
   <tr>
-    <td>GND</td>
+    <td>+3.3v</td>
     <td>(Not supported yet,<br>Can use TCON command to shutdown)</td>
     <td>8</td>
     <td>SHDN</td>
